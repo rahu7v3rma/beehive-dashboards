@@ -1,0 +1,238 @@
+import { IContributorBreakdown, ISkillBreakdown } from 'src/types/community';
+import { ITasks } from 'src/types/tasks';
+
+export const tasks: ITasks[] = [
+    { name: 'Tasks', number: 28 },
+    { name: 'Pending', number: 3 },
+    { name: 'In progress', number: 2 },
+    { name: 'In review', number: 9 },
+    { name: 'Available', number: 1 },
+    { name: 'Contributors', number: 4 },
+    { name: 'Working', number: 11 }
+];
+
+export const SKILLS_BREAKDOWN: { breakdown: ISkillBreakdown[] } = {
+    breakdown: [
+        { name: 'Python', count: 12 },
+        { name: 'React', count: 14 },
+        { name: 'React Native', count: 19 },
+        { name: 'Django', count: 9 },
+        { name: 'Next.js', count: 19 },
+        { name: 'StoryBook', count: 10 },
+        { name: 'Chalice', count: 11 }
+    ]
+};
+
+export const CONTRIBUTORS_BREAKDOWN: { breakdown: IContributorBreakdown[] } = {
+    breakdown: [
+        {
+            id: '1',
+            name: 'John Lennon',
+            country: 'GB',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 1,
+            worksInReview: 2,
+            hourlyRate: '38.7',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.88
+        },
+        {
+            id: '2',
+            name: 'Mahatama Gandhi',
+            country: 'IN',
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 3,
+            worksInReview: 1,
+            hourlyRate: '386',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.56
+        },
+        {
+            id: '3',
+            name: 'Natalie Portman',
+            country: 'IL',
+            active: false,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 5,
+            worksInReview: 1,
+            hourlyRate: '38.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.55
+        },
+        {
+            id: '4',
+            name: 'Bob Marley',
+            country: 'JM',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 3,
+            worksInReview: 5,
+            hourlyRate: '8.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.1
+        },
+        {
+            id: '5',
+            name: 'Kristina Dubovskaya',
+            country: 'BY',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 1,
+            worksInReview: 8,
+            hourlyRate: '38.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.4
+        },
+        {
+            id: '6',
+            name: 'John Lennon',
+            country: 'GB',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 13,
+            worksInReview: 12,
+            hourlyRate: '34.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.55
+        },
+        {
+            id: '7',
+            name: 'John Lennon',
+            country: 'OO',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 5,
+            worksInReview: 6,
+            hourlyRate: '38.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 1
+        },
+        {
+            id: '8',
+            name: 'John Lennon',
+            country: 'US',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 7,
+            worksInReview: 7,
+            hourlyRate: '38.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.82
+        },
+        {
+            id: '9',
+            name: 'John Lennon',
+            country: 'US',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 8,
+            worksInReview: 9,
+            hourlyRate: '38.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.7
+        },
+        {
+            id: '10',
+            name: 'John Lennon',
+            country: 'US',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 1,
+            worksInReview: 2,
+            hourlyRate: '28.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.26
+        },
+        {
+            id: '11',
+            name: 'John Lennon',
+            country: 'US',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 2,
+            worksInReview: 4,
+            hourlyRate: '38.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.3
+        },
+        {
+            id: '12',
+            name: 'John Lennon',
+            country: 'US',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 2,
+            worksInReview: 4,
+            hourlyRate: '18.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.28
+        },
+        {
+            id: '13',
+            name: 'John Lennon',
+            country: 'US',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 3,
+            worksInReview: 5,
+            hourlyRate: '38.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.85
+        },
+        {
+            id: '14',
+            name: 'John Lennon',
+            country: 'US',
+            active: true,
+            lastWork: '80d 12h ago',
+            lastEngagement: '4h ago',
+            reservedWorks: 6,
+            worksInReview: 8,
+            hourlyRate: '28.6',
+            skills: ['React', 'Python', 'React Native'],
+            weeklyAvailability: 30,
+            projects: ['Atomic', 'Mastering Diabetes', 'Cyberillium'],
+            billableHoursRatio: 0.45
+        }
+    ]
+};
