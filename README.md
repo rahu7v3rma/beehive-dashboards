@@ -1,6 +1,3 @@
-<img width="1414" alt="beehive2" src="https://github.com/user-attachments/assets/cfff4c51-5b05-40f1-ad98-98265930f8af" />
-<img width="1415" alt="beehive-1" src="https://github.com/user-attachments/assets/445e16e3-7400-4e38-8b77-1b0f17750a83" />
-
 # beehive-dashboards
 
 ## Run
